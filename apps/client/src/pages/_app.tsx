@@ -15,11 +15,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>goro goro</title>
-        <meta
-          content="My personal stack for production app"
-          name="description"
-        />
+        <title>レムのゴロゴロ</title>
+        <meta content="Remu's Goro Goro" name="description" />
       </Head>
 
       <ApolloProvider client={client}>
